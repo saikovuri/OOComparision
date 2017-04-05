@@ -1,4 +1,4 @@
-# OOComparison
+# OO Comparison
 
 
 ## My really cool OO comparison
