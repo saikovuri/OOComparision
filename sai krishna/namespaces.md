@@ -247,34 +247,34 @@ namespace N1     // N1
 											}</td>
   </tr>
 
-	<tr>
-	<td> internal</td>
-	<td> private</td>
-	<td> <p>Used as a class modifier to limit the class's use inside the current library. If another library imports this library and then attempts to create an instance or use this class, a compile-time error will occur.</p></td>
-	<td> namespace Hidden <br>
-			{<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;internal class A<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br><br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+  <tr>
+    <td> internal</td>
+    <td> private</td>
+    <td> <p>Used as a class modifier to limit the class's use inside the current library. If another library imports this library and then attempts to create an instance or use this class, a compile-time error will occur.</p></td>
+    <td> namespace Hidden <br>
+		{<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;internal class A<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+		}<br><br>
+
+		<p>//another library </p><br>
+		<p>using Hidden; </p><br><br>
+		<p>//attempt to illegally </p><br>
+		<p>//use a Hidden class </p><br>
+		<p>A a = new A(); </p><br>
+		</td>
+<td> package Hidden; <br>
+		private class A <br>
+			{ <br><br>
 			}<br><br>
 
-			//another library <br>
-			using Hidden; <br><br>
-			//attempt to illegally <br>
-			//use a Hidden class <br>
-			A a = new A(); <br>
-			</td>
-	<td> package Hidden; <br>
-			private class A <br>
-				{ <br><br>
-				}<br><br>
-
-			//another library <br>
-			import Hidden; <br><br>
-			//attempt to illegally <br>
-			//use a Hidden class <br>
-			A a = new A();	</td>
-	</tr>
+		<p>//another library</p> <br>
+		<p>import Hidden; </p><br><br>
+		<p>//attempt to illegally </p><br>
+		<p>//use a Hidden class </p><br>
+		<p>A a = new A();	</p></td>
+</tr>
 </table>
 
 [Click here for sample code](namespaces/controlScope.cs)
