@@ -258,14 +258,14 @@ namespace N1     // N1
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
 		}<br><br>
 
-		<p>A a = new A(); </p><br>
+		<br>
 		</td>
    <td> package Hidden; <br>
 		private class A <br>
 			{ <br><br>
 			}<br><br>
 
-		<p>A a = new A();	</p></td>
+		</td>
   </tr>
 </table>
 
