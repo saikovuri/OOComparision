@@ -10,8 +10,9 @@ C# and Java are similar languages that are typed statically, strongly, and manif
 * Java support many built-in types that are copied and passed by value rather than by reference. These are called primitive types in java.
 * Parallel operations introduced in Java 8. Actual iteration over a collection on which a Lambda function is carried out by the core library itself.
 * Code snippet of Parallel processing capabilities in Java:
-  ``` ConcurrentMap<Person.Sex, List<Person>> byGender = roster.parallelStream().collect(
-      Collectors.groupingByConcurrent(Person::getGender));
+  ```
+  ConcurrentMap<Person.Sex, List<Person>> byGender = roster.parallelStream().collect(Collectors.groupingByConcurrent(Person::getGender));
+
   ```
 
 ### C#:
