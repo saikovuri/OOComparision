@@ -8,7 +8,11 @@ C# and Java are similar languages that are typed statically, strongly, and manif
 * In Java the primitive types are special in that they are not object-oriented and they could not have been defined using the language itself.
 * They also do not share a common ancestor with reference types.
 * Java support many built-in types that are copied and passed by value rather than by reference. These are called primitive types in java.
-
+* Parallel operations introduced in Java 8. Actual iteration over a collection on which a Lambda function is carried out by the core library itself.
+* Code snippet of Parallel processing capabilities in Java:
+  ``` ConcurrentMap<Person.Sex, List<Person>> byGender = roster.parallelStream().collect(
+      Collectors.groupingByConcurrent(Person::getGender));
+  ```
 
 ### C#:
 * C# is not quite as platform-independent, but will run under Windows and Mac OS-X (but not Linux).  
