@@ -93,7 +93,7 @@ public class Animal {
 
 A class definition starts with the keyword class followed by the class name; and the class body enclosed by a pair of curly braces.
 For example:
-``` C#
+```cs
 public class Customer
 {
     //Fields, properties, methods and events go here...
@@ -108,14 +108,14 @@ Class and an object are different things. A class defines a type of object, but 
 
 Objects can be created by using the new keyword followed by the name of the class that the object will be based on, like this:
 
-``` C#
+```cs
 Customer obj = new Customer();
 
 ```
 
 When an instance of a class is created, a reference to the object is passed back to the programmer. In the above example, obj is a reference to an object that is based on Customer. This reference refers to the new object but does not contain the object data itself. In fact, you can create an object reference without creating an object at all:
 
-```C#
+```cs
 Customer object2;
 ```
 
@@ -125,7 +125,7 @@ When a class or struct is created, its constructor is called. Constructors have 
 
 In the below example, a class named Taxi is defined by using a simple constructor. This class is then instantiated with the new operator. The Taxi constructor is invoked by the new operator immediately after memory is allocated for the new object.
 
-```C#
+```cs
 public class Taxi
 {
     public bool isInitialized;
@@ -162,7 +162,7 @@ Destructors in C# are used to destruct instances of classes.
 
   Below is an example of declaration of a destructor for the class:
 
-```C#
+```cs
   class Car
 {
     ~Car()  // destructor
@@ -174,7 +174,7 @@ Destructors in C# are used to destruct instances of classes.
 
 The destructor implicitly calls Finalize on the base class of the object. Therefore, the above destructor code is implicitly translated to the following code:
 
-```C#
+```cs
 protected override void Finalize()  
 {  
     try  
