@@ -118,4 +118,4 @@ public int Age { get; set; }
 ```
 
 
-#### C``#`` does not have computed properties
+#### ``C#`` does not have computed properties

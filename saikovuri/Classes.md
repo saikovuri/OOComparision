@@ -88,7 +88,7 @@ public class Animal {
 }
 ```
 
-### C``#``
+###  ``C#``
 #### Defining
 
 A class definition starts with the keyword class followed by the class name; and the class body enclosed by a pair of curly braces.
