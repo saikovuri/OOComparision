@@ -1,4 +1,4 @@
-### Unique features of the language
+## Unique features of the language
 
 C# and Java are similar languages that are typed statically, strongly, and manifestly. Both are object-oriented, and designed with semi-interpretation or runtime just-in-time compilation, and both are curly brace languages, like C and C++.
 
