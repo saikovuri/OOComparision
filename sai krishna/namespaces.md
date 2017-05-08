@@ -258,23 +258,15 @@ namespace N1     // N1
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
 		}<br><br>
 
-		<p>//another library </p><br>
-		<p>using Hidden; </p><br><br>
-		<p>//attempt to illegally </p><br>
-		<p>//use a Hidden class </p><br>
 		<p>A a = new A(); </p><br>
 		</td>
-<td> package Hidden; <br>
+   <td> package Hidden; <br>
 		private class A <br>
 			{ <br><br>
 			}<br><br>
 
-		<p>//another library</p> <br>
-		<p>import Hidden; </p><br><br>
-		<p>//attempt to illegally </p><br>
-		<p>//use a Hidden class </p><br>
 		<p>A a = new A();	</p></td>
-</tr>
+  </tr>
 </table>
 
 [Click here for sample code](namespaces/controlScope.cs)
