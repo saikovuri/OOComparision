@@ -97,7 +97,7 @@ In general, you should create a new thread "manually" for long-running tasks, an
 [Click below for sample code that demonstrates threads creation in C#](multithreading/threads.cs)
 
 
-[Click here for sample code that illustrates use of sleep() method for making a thread to pause](Multithreading/threadSleep.cs)
+[Click here for sample code that illustrates use of sleep() method for making a thread to pause](multithreading/threadSleep.cs)
 
 
 References:
