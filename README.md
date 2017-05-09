@@ -31,7 +31,7 @@ This project tries to compare following two Object Oriented languages:
   * Creating new instances
   * Constructing/initializing
   * Destructing/de-initializing
-* Instance reference name in data type (class)
+* [Instance reference name in data type (class)](InstanceReference.md)
   * this?  self?
 * [Properties](Properties.md)
   * Getters and setters...write your own or built in?
@@ -41,7 +41,7 @@ This project tries to compare following two Object Oriented languages:
   * What does the language support?
   * What abilities does it have?
   * How is it used?
-* Inheritance / extension
+* [Inheritance / extension](Inheritance.md)
 * [Reflection](Reflection.md)
   * What reflection abilities are supported?
   * How is reflection used?
@@ -50,21 +50,21 @@ This project tries to compare following two Object Oriented languages:
   * How does it work?
   * Garbage collection?
   * Automatic reference counting?
-* Comparisons of references and values
+* [Comparisons of references and values](ComparisonOfReferences.md)
   * How are values compared? (i.e. comparing two strings)
 * [Null/nil references](Null&Nil_References.md)
   * Which does the language use? (null/nil/etc.)
   * Does the language have features for handling null/nil references?
-* Errors and exception handling
-* Lambda expressions, closures, or functions as types
-* Implementation of listeners and event handlers
+* [Errors and exception handling](ExceptionHandling.md)
+* [Lambda expressions, closures, or functions as types](FunctionalProgramming.md)
+* [Implementation of listeners and event handlers](EventHandling.md)
 * [Singleton](Singleton.md)
   * How is a singleton implemented?
   * Can it be made thread-safe?
   * Can the singleton instance be lazily instantiated?
 * [Procedural programming](Procedural_programming.md)
   * Does the language support procedural programming?
-* Functional programming
+* [Functional programming](FunctionalProgramming.md)
   * Does the language support functional programming?
 * [Multithreading](Multithreading.md)
   * Threads or thread-like abilities
