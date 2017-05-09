@@ -17,23 +17,23 @@ This project tries to compare following two Object Oriented languages:
   * Why was the language created?
   * What problems was the language trying to address?
   * Is the language a reaction to a previous language or a replacement for another language?
-* Unique features of the language
+* [Unique features of the language](UniqueFeatures.md)
   * Does the language have any particularly unique features?
 * [Name spaces](namespaces.md)
   * How are name spaces implemented?
   * How are name spaces used?
-* Types
+* [Types](Types.md)
     * What types does the language support?
     * Are both reference and value types supported?
     * Can new value types be created?
-* Classes
+* [Classes](Classes.md)
   * Defining
   * Creating new instances
   * Constructing/initializing
   * Destructing/de-initializing
 * Instance reference name in data type (class)
   * this?  self?
-* Properties
+* [Properties](Properties.md)
   * Getters and setters...write your own or built in?
   * Backing variables?
   * Computed properties?
@@ -42,7 +42,7 @@ This project tries to compare following two Object Oriented languages:
   * What abilities does it have?
   * How is it used?
 * Inheritance / extension
-* Reflection
+* [Reflection](Reflection.md)
   * What reflection abilities are supported?
   * How is reflection used?
 * [Memory management](Memory_management.md)
@@ -52,7 +52,7 @@ This project tries to compare following two Object Oriented languages:
   * Automatic reference counting?
 * Comparisons of references and values
   * How are values compared? (i.e. comparing two strings)
-* Null/nil references
+* [Null/nil references](Null&Nil_References.md)
   * Which does the language use? (null/nil/etc.)
   * Does the language have features for handling null/nil references?
 * Errors and exception handling
@@ -62,7 +62,7 @@ This project tries to compare following two Object Oriented languages:
   * How is a singleton implemented?
   * Can it be made thread-safe?
   * Can the singleton instance be lazily instantiated?
-* Procedural programming
+* [Procedural programming](Procedural_programming.md)
   * Does the language support procedural programming?
 * Functional programming
   * Does the language support functional programming?
