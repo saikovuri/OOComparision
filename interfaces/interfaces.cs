@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Example_13_1_ _ _ _Implementing_Interface
+namespace Implementing_Interface
 {
    interface IStorable
    {
