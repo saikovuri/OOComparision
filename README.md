@@ -13,13 +13,13 @@ This project tries to compare following two Object Oriented languages:
 
 ### Comparison Criteria
 
-* Language purpose/genesis
+* [Language purpose/genesis](Language_genesis.md)
   * Why was the language created?
   * What problems was the language trying to address?
   * Is the language a reaction to a previous language or a replacement for another language?
 * Unique features of the language
   * Does the language have any particularly unique features?
-* Name spaces
+* [Name spaces](namespaces.md)
   * How are name spaces implemented?
   * How are name spaces used?
 * Types
@@ -37,7 +37,7 @@ This project tries to compare following two Object Oriented languages:
   * Getters and setters...write your own or built in?
   * Backing variables?
   * Computed properties?
-* Interfaces / protocols
+* [Interfaces / protocols](Interfaces_Protocols.md)
   * What does the language support?
   * What abilities does it have?
   * How is it used?
@@ -45,7 +45,7 @@ This project tries to compare following two Object Oriented languages:
 * Reflection
   * What reflection abilities are supported?
   * How is reflection used?
-* Memory management
+* [Memory management](Memory_management.md)
   * How is it handled?
   * How does it work?
   * Garbage collection?
@@ -58,7 +58,7 @@ This project tries to compare following two Object Oriented languages:
 * Errors and exception handling
 * Lambda expressions, closures, or functions as types
 * Implementation of listeners and event handlers
-* Singleton
+* [Singleton](Singleton.md)
   * How is a singleton implemented?
   * Can it be made thread-safe?
   * Can the singleton instance be lazily instantiated?
@@ -66,6 +66,6 @@ This project tries to compare following two Object Oriented languages:
   * Does the language support procedural programming?
 * Functional programming
   * Does the language support functional programming?
-* Multithreading
+* [Multithreading](Multithreading.md)
   * Threads or thread-like abilities
   * How is multitasking accomplished?
