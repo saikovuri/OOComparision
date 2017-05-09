@@ -73,7 +73,7 @@ public class StaticBlockSingleton {
 
 #### C#:
 
-<img src='uml.png'/>
+<img src='images/uml.png'/>
 
 Even though Singleton is a comparatively simple pattern, there are various tradeoffs and options, depending upon the implementation.
 
